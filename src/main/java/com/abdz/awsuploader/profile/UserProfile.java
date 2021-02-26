@@ -2,13 +2,12 @@ package com.abdz.awsuploader.profile;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
 
 import java.util.Optional;
 import java.util.UUID;
 
 @Data
+@AllArgsConstructor
 public class UserProfile {
 
     private UUID profileId;
